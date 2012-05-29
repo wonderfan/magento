@@ -1,4 +1,4 @@
-WonderFan
-=========
+WonderFan's Coding Worlds
+=========================
 
-Magento Extension
+PHP and Javascript Trip
