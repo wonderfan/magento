@@ -1,11 +1,64 @@
-
 <!DOCTYPE html>
 <html>
     <head>
         <title></title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <style type="text/css">
+            .menu{
+                width: 80%;
+                background-color: buttonface;
+                margin-left: 10%;
+                height: 36px;
+                font-family: serif;
+                font-size:  large;
+            }
+            body{
+                background-color: gainsboro;                
+            }
+            .main{
+                width: 80%;
+                margin-left: 10%;
+                margin-top: 20px;                
+            }
+            .menu ul li{
+                float: left;
+                margin-right: 10px;               
+                list-style-type: none;
+                padding-top: 6px;
+            }
+            .clear{
+                clear: both;
+            }
+            li.first{
+                margin-left: 10px;
+            }
+            h3{
+                text-align: center;
+            }
+            li a{
+                width: auto;   
+                text-decoration: none;
+            }           
+            a:visited {color:#00FF00;} 
+            a:hover {color:#FF00FF;} 
+            a:active {color:#0000FF;} 
+        </style>
     </head>
     <body>
-        <div>This is my journey</div>
+        <div class="menu">
+            <ul>
+                <li class="first"><a href="dojo.html">Dojo</a></li>
+                <li><a href="jquery.html">jQuery</a></li>
+                <li><a href="backbone.html">Backbone</a></li>
+                <li><a href="ember.html">Ember</a></li>
+                <li><a href="angular.html">Angular</a></li>
+                <li><a href="jquery.html">Knockout</a></li>
+                <li><a href="jquery.html">Closure</a></li>
+            </ul>
+            <div class="clear"></div>
+        </div>
+        <div class="main">
+            <h3>The Guide to Rich JavaScript</h3>
+        </div>
     </body>
 </html>
