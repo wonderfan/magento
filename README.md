@@ -20,5 +20,5 @@ The content
 
 My wiki and demo
 ----------------
-1. wiki pages: http://github.com/wonderfan/magento/wiki 
+1. wiki pages:   http://github.com/wonderfan/magento/wiki 
 2. demo pages: http://wonderfan.github.io/magento/
