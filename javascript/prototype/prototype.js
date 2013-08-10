@@ -9,3 +9,5 @@ var myClass = Class.create({
     echo: function(message){ console.log(message);}    
     
 });
+
+var wonderfan = window.wonderfan || (window.wonderfan = {});
