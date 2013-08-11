@@ -8,7 +8,7 @@ PHP and JavaScript Trip
 1. Clone the repository;
 2. Make your code changes;
 3. Push your code changes;
-4. Merge them into your master repository
+4. Merge them into your master repository.
 
 ###The content
 -----------
@@ -16,7 +16,7 @@ PHP and JavaScript Trip
 2. Magento modules;
 3. Magento themes;
 4. Magento UE&UI;
-5. Magento upgrade
+5. Magento upgrade.
 
 ###My wiki and demo
 ----------------
