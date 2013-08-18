@@ -1,0 +1,18 @@
+    <frontend>
+        <routers>
+            <customer>
+                <args>
+                    <modules>
+                        <Gobok_Authorlogin before="Mage_Customer">Gobok_Authorlogin</Gobok_Authorlogin>
+                    </modules>
+                </args>
+            </customer>
+            <authorlogin>
+                <use>standard</use>
+                <args>
+                    <module>Gobok_Authorlogin</module>
+                    <frontName>authorlogin</frontName>
+                </args>
+            </authorlogin>
+        </routers>       
+    </frontend>
