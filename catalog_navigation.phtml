@@ -1,0 +1,179 @@
+
+<?php
+/**
+ * $this->renderCategoriesMenuHtml() supports optional arguments:
+ * int Level number for list item class to start from
+ * string Extra class of outermost list items
+ * string If specified wraps children list in div with this class
+ */
+?>
+<div class="l_sec">
+<div class="store_heading">Shop Online</div>
+<?php /*
+ <!--<ul class="c_menu">
+					<?php $_helper = Mage::helper('catalog/category') ?>
+<?php  $_categories = $_helper->getStoreCategories('name', true, false); ?>
+
+<?php $currentCategory = Mage::registry('current_category') ?>
+<?php if (count($_categories) > 0): ?>
+
+
+    <ul>
+        <?php  foreach($_categories as $_category):  ?>
+            <li>
+                <a href="<?php echo $_helper->getCategoryUrl($_category) ?>">
+                    <?php  echo $_category->getName(); ?>
+                </a>
+                <?php $_category = Mage::getModel('catalog/category')->load($_category->getId()) ?>
+                <?php $_subcategories = $_category->getChildrenCategories() ?>
+                <?php if (count($_subcategories) > 0): ?>
+                    <ul>
+                        <?php foreach($_subcategories as $_subcategory): ?>
+                            <li>
+                                <a href="<?php echo $_helper->getCategoryUrl($_subcategory) ?>">
+                                    <?php echo $_subcategory->getName() ?>
+                                </a>
+                            </li>
+                        <?php endforeach; ?>
+                    </ul>
+                <?php endif; ?>
+            </li>
+        <?php endforeach; ?>
+    </ul>
+<?php endif; ?>
+			
+			
+ </ul>-->
+
+*/?>
+			
+            
+<?php $_helper = Mage::helper('catalog/category') ?>
+<?php $_categories = $_helper->getStoreCategories() ?>
+<?php
+
+function array_sort($array, $on, $order=SORT_ASC)
+{
+$new_array = array();
+$sortable_array = array();
+
+if (count($array) > 0) {
+foreach ($array as $k => $v) {
+if (is_array($v)) {
+foreach ($v as $k2 => $v2) {
+if ($k2 == $on) {
+$sortable_array[$k] = $v2;
+}
+}
+} else {
+$sortable_array[$k] = $v;
+}
+}
+
+switch ($order) {
+case SORT_ASC:
+asort($sortable_array);
+break;
+case SORT_DESC:
+arsort($sortable_array);
+break;
+}
+
+foreach ($sortable_array as $k => $v) {
+$new_array[$k] = $array[$k];
+}
+}
+
+return $new_array;
+}
+
+?>
+<?php
+$layer = Mage::getSingleton('catalog/layer');
+$_category = $layer->getCurrentCategory();
+$currentCategoryId= $_category->getId();
+?>
+
+<ul class="c_menu">
+
+<?php $_helper = Mage::helper('catalog/category') ?>
+<?php $_categories2 = $_helper->getStoreCategories() ?>
+<?php $currentCategory = Mage::registry('current_category') ?>
+<?php if (count($_categories) > 0): ?>
+
+
+
+
+
+
+<?php $_categories = array();?>
+<?php //$_subcategories = $_category->getChildrenCategories() ?>
+<?php foreach($_categories2 as $_subCategory) : ?>
+<?php $_categories[] = array('name' => $_subCategory->getName(), 'url' => $_subCategory->getUrl(), 'id' => $_subCategory->getId());?>
+<?php endforeach ?>
+<?php $_categories = array_sort($_categories, 'name', SORT_ASC);?>
+
+<?php foreach($_categories as $_category): ?>
+<?php $_category = Mage::getModel('catalog/category')->load($_category['id']) ?>
+<li><a href="<?php echo $_helper->getCategoryUrl($_category) ?>"><span><?php echo $_category->getName(); ?></span></a>
+<?php $catList = array();?>
+<?php $_subcategories = $_category->getChildrenCategories() ?>
+<?php foreach($_subcategories as $_subCategory) : ?>
+<?php $catList[] = array('name' => $_subCategory->getName(), 'url' => $_subCategory->getUrl(), 'id' => $_subCategory->getId());?>
+<?php endforeach ?>
+<?php $catList = array_sort($catList, 'name', SORT_ASC);?>
+<ul>
+<?php if (count($catList) > 0): ?>
+<?php $subcat=0?>
+<?php foreach($catList as $_subCategory): ?>
+<li><a href="<?php echo $_subCategory['url'] ?>"><?php echo $_subCategory['name'] ?></a>
+<?php $subCatList = array();?>
+<?php $_subSubCat = Mage::getModel('catalog/category')->load($_subCategory['id']);
+$_subSubCategories = $_subSubCat->getChildrenCategories();?>
+<?php foreach($_subSubCategories as $_subSubCategory) : ?>
+
+<?php $subCatList[] = array('name' => $_subSubCategory['name'], 'url' => $_subSubCategory->getUrl());?>
+<?php endforeach ?>
+<?php $subCatList = array_sort($subCatList, 'name', SORT_ASC);?>
+<?php if (count($subCatList) > 0): ?>
+<ul>
+<?php foreach($subCatList as $_subSubCat): ?>
+<?php ?>
+<li><a href="<?php echo $_subSubCat['url'] ?>"><?php echo $_subSubCat['name'] ?></a>
+<?php endforeach; ?>
+</li></ul>
+<?php endif; ?>
+</li>
+<?php endforeach; ?>
+
+<?php endif; ?>
+</ul>
+</li>
+<?php endforeach; ?>
+
+<?php endif; ?>
+</ul>
+			
+</div>	
+		
+<script type="text/javascript">
+jQuery(document).ready(function() {
+		jQuery(".sidebar .c_menu li >ul").hide();
+		jQuery('.c_menu li').hover(
+				function(){
+					jQuery(this).css({"background": "rgb(221, 243, 206)"});
+					var s_css_menu = {"position": "absolute","left": "90%","top": "0px",
+						"background": "none repeat scroll 0% 0% rgb(221, 243, 206)","width": "100%", "z-index": 99};
+					jQuery(this).children('ul').css(s_css_menu);
+					jQuery(this).children('ul').show();
+					//jQuery("ul",this).show();
+					
+				},function(){
+					jQuery(this).css({"background":"url(http://www.trianglehealing.com/skin/frontend/triangle/triangle_thm/images/devider_gray.jpg) repeat-x bottom"});
+					jQuery(this).children('ul').hide();					
+				}			
+			);
+			
+});
+</script>
+
