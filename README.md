@@ -16,7 +16,7 @@ WonderFan's Magento World
 4. Magento UE&UI;
 5. Magento upgrade.
 
-###My wiki and demo
+###My wiki and blog
 ----------------
 1. Wiki pages:   http://github.com/wonderfan/magento/wiki 
 2. My Blog: http://www.wonderfan.net
