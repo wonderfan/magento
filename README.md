@@ -1,7 +1,5 @@
-WonderFan's Coding Worlds
+WonderFan's Magento World
 =========================
-
-PHP and JavaScript Trip
 
 ###How to use git?
 --------------
@@ -21,4 +19,4 @@ PHP and JavaScript Trip
 ###My wiki and demo
 ----------------
 1. Wiki pages:   http://github.com/wonderfan/magento/wiki 
-2. Demo pages: http://wonderfan.github.io/magento/
+2. My Blog: http://www.wonderfan.net
