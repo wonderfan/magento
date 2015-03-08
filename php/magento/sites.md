@@ -11,6 +11,7 @@
 - [replicafurniture](http://www.replicafurniture.com.au/)
 - [bridensolutions](http://www.bridensolutions.ca/)
 - [pacificstereo](http://www.pacificstereo.com/)
+- [trianglehealing](www.trianglehealing.com)
 
 
 
