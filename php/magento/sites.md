@@ -12,6 +12,7 @@
 - [bridensolutions](http://www.bridensolutions.ca/)
 - [pacificstereo](http://www.pacificstereo.com/)
 - [trianglehealing](www.trianglehealing.com)
+- [simply-fashions](http://www.simply-fashions.com/)
 
 
 
