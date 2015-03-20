@@ -1,7 +1,8 @@
 ####  The log info:
+
 1. wngdev.co.uk/yds
 2. control.gridhost.co.uk
-3. u: jia
+3. user jia
 4. p: admin123
 
 
