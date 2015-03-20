@@ -2,8 +2,8 @@
 
 - wngdev.co.uk/yds
 - control.gridhost.co.uk
-- user jia
-- p: admin123
+- jia
+- admin123
 
 
 * use: wngdevco_yds	
