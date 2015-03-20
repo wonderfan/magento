@@ -1,9 +1,9 @@
 ####  The log info:
 
-1. wngdev.co.uk/yds
-2. control.gridhost.co.uk
-3. user jia
-4. p: admin123
+- wngdev.co.uk/yds
+- control.gridhost.co.uk
+- user jia
+- p: admin123
 
 
 * use: wngdevco_yds	
