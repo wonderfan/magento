@@ -21,6 +21,8 @@
 - [sachajuan](http://sachajuan.es/)
 - [rack-cabinets](http://rack-cabinets.com/)
 - [urbanbodyjewelry](http://www.urbanbodyjewelry.com/)
+- [kd-mobile](http://kd-mobile.com/)
+- [hcm-mobile](http://hcm-mobile.com/)
 
 
 
