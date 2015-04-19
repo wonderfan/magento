@@ -24,6 +24,7 @@
 - [kd-mobile](http://kd-mobile.com/)
 - [hcm-mobile](http://hcm-mobile.com/)
 - [jomashop](http://www.jomashop.com/)
+- [designliving](http://www.designliving.com/)
 
 
 
