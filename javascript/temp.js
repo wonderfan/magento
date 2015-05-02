@@ -86,3 +86,19 @@
         })
     }
 }(jQuery);
+
+
+
+ $(':not([data-activate-page=""])').click(function() {
+            var id = $(this).attr('data-activate-page');
+            if(id) {
+                if (!$('body').hasClass('cms-page-view cms-before-and-afters')) $('.page-switch').removeClass('page-switch-active');
+                else {
+                    if ($('#' + id).parent().hasClass('container-men'))
+                        $('.container-men .page-switch').removeClass('page-switch-active');
+                    else
+                        $('.container-women .page-switch').removeClass('page-switch-active');
+                }
+                $('#' + id).addClass('page-switch-active');
+            }
+        });
