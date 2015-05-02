@@ -1,0 +1,3 @@
+			<block type="cms/block" name="unique_original_footer_logo">
+				<action method="setBlockId"><block_id>unique_original_footer_logo</block_id></action>
+			</block>
