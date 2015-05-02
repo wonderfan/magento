@@ -1,0 +1,24 @@
+<div class="col2-set">
+  <div class="col-1">
+    <div id="container0">
+	 <div><img alt="before" src="{{skin url='images/slider/women_before.png'}}"  width="560" height="320" /></div>
+	 <div><img alt="after" src="{{skin url='images/slider/women_after.png'}}"  width="560" height="320" /></div>
+	</div>
+  </div>
+  <div class="col-2">
+    <div id="container1">
+	 <div><img alt="before" src="{{skin url='images/slider/men_before.png'}}"  width="560" height="320" /></div>
+	 <div><img alt="after" src="{{skin url='images/slider/men_after.png'}}"  width="560" height="320" /></div>
+	</div>  
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.0/jquery-ui.js"></script>
+<script src="{{skin url='js/jquery.beforeafter-1.4.min.js' }}"></script>
+<script>
+jQuery(document).ready(function(){
+  var imagePath = "{{skin url='images/slider/' }}";
+  jQuery("#container0").beforeAfter({imagePath:imagePath});
+  jQuery("#container1").beforeAfter({imagePath:imagePath});
+});
+</script>
