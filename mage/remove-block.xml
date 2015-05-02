@@ -1,0 +1,7 @@
+    <remove name="right"/>
+    <remove name="left"/>
+        
+		<reference name="right">        
+      <action method="unsetChild"><name>right.permanent.callout</name></action>
+			<action method="unsetChild"><name>cart_sidebar</name></action>
+		</reference>
