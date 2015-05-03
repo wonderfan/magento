@@ -1,0 +1,18 @@
+#mobilemenu {display: none; };
+
+@media only screen and (min-width: 960px) {
+}
+
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {
+#computermenu{ display: none; }
+}
+
+
+<ul id ="computermenu" class="menu menu-blue menu-<?php echo $this->getPosition() ?> <?php echo $this->getMenuClass() ?>">
+<?php echo $this->renderMenuHtml() ?>
+</ul>
+
+<ul id ="mobilemenu" class="menu menu-blue menu-<?php echo $this->getPosition() ?> <?php echo $this->getMenuClass() ?>">
+<?php echo $this->renderMobileMenuHtml() ?>
+</ul>
