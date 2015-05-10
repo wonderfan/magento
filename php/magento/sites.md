@@ -33,6 +33,7 @@
 - [aigle](http://www.aigle.com.cn/)
 - [wasdkeyboards](http://www.wasdkeyboards.com)
 - [zaptok](http://www.zaptok.com/)
+- [watchco](http://www.watchco.com/)
 
 
 
