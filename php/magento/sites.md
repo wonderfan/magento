@@ -38,6 +38,7 @@
 - [woodzee](http://www.woodzee.com/)
 - [purelyfresh](www.purelyfresh.com.sg)
 - [creativeglassgifts](http://www.creativeglassgifts.com/)
+- [loveulicious](http://www.loveulicious.com/)
 
 
 
