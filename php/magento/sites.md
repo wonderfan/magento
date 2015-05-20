@@ -36,6 +36,7 @@
 - [watchco](http://www.watchco.com/)
 - [sportrx](http://www.sportrx.com/)
 - [woodzee](http://www.woodzee.com/)
+- [purelyfresh](www.purelyfresh.com.sg)
 
 
 
