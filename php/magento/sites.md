@@ -39,6 +39,7 @@
 - [purelyfresh](www.purelyfresh.com.sg)
 - [creativeglassgifts](http://www.creativeglassgifts.com/)
 - [loveulicious](http://www.loveulicious.com/)
+- [intlestore](http://www.intlestore.com/)
 
 
 
