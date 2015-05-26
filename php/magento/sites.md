@@ -40,6 +40,8 @@
 - [creativeglassgifts](http://www.creativeglassgifts.com/)
 - [loveulicious](http://www.loveulicious.com/)
 - [intlestore](http://www.intlestore.com/)
+- [cheveuxorly](http://cheveuxorly.com/)
+- [orlycheveux](http://orlycheveux.com/)
 
 
 
