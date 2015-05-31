@@ -42,6 +42,8 @@
 - [intlestore](http://www.intlestore.com/)
 - [cheveuxorly](http://cheveuxorly.com/)
 - [orlycheveux](http://orlycheveux.com/)
+- [barreveld](http://www.barreveld.com/)
+- [dkliving](http://www.dkliving.net/)
 
 
 
