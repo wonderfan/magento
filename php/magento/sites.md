@@ -52,6 +52,7 @@
 - [cooladeals](http://cooladeals.com/)
 - [bluenyledirect](https://www.bluenyledirect.com/)
 - [outfitterwarehouse](http://www.outfitterwarehouse.com/)
+- [prancingleopard](www.prancingleopard.com)
 
 
 
