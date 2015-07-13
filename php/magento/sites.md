@@ -54,6 +54,7 @@
 - [outfitterwarehouse](http://www.outfitterwarehouse.com/)
 - [prancingleopard](www.prancingleopard.com)
 - [laxiba](https://laxiba.com/)
+- [janlogan](www.janlogan.com)
 
 
 
