@@ -1,11 +1,4 @@
 <?php 
-/*
-* ClassName: PHP MySQL Importer v2.0.1
-* PHP class for importing big SQL files into a MySql server. 
-* Author: David Castillo - davcs86@gmail.com  
-* Hire me on: https://www.freelancer.com/u/DrAKkareS.html
-* Blog: http://blog.d-castillo.info/
-*/
 class MySQLImporter { 
     public $hadErrors = false;
     public $errors = array();
