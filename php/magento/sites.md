@@ -56,6 +56,7 @@
 - [laxiba](https://laxiba.com/)
 - [janlogan](www.janlogan.com)
 - [craf8](http://craf8.com/)
+- [vedaroma](http://vedaroma.eu/)
 
 
 
