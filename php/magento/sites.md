@@ -57,6 +57,7 @@
 - [janlogan](www.janlogan.com)
 - [craf8](http://craf8.com/)
 - [vedaroma](http://vedaroma.eu/)
+- [excellentstorestt](https://www.excellentstorestt.com/)
 
 
 
