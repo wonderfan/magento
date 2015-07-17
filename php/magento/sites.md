@@ -58,6 +58,8 @@
 - [craf8](http://craf8.com/)
 - [vedaroma](http://vedaroma.eu/)
 - [excellentstorestt](https://www.excellentstorestt.com/)
+- [made](http://www.made.com/)
+- [cityfurniture](http://www.cityfurniture.com/)
 
 
 
