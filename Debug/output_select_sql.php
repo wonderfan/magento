@@ -1,2 +1,4 @@
-echo $collection->getSelect();
+echo (string)$collection->getSelect();
+
+echo $collection->getSelect()->assemble();
 
