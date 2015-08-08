@@ -1,0 +1,2 @@
+echo $collection->getSelect();
+
