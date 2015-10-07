@@ -66,8 +66,7 @@
 - [lavenderhillinteriors](https://www.lavenderhillinteriors.com.au/)
 - [planetlinen](http://planetlinen.com.au/)
 - [mygraphtech](http://mygraphtech.com/)
-
-
+- [tjvip](https://www.tjvip.com.br/)
 
 ### Magento Useful Links
 
