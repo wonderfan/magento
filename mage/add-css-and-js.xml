@@ -15,3 +15,11 @@
    
    </reference>
 </handle>
+
+$this->getLayout->getBlock('head')->removeItem('js', 'calendar/calendar.js');
+$headBlock = $this->getLayout()->getBlock(‘head’);
+$headBlock->addJs(’somefolder/yay.js’);
+
+<!--
+one good guide: http://blog.onlinebizsoft.com/how-to-add-or-remove-javascript-css-on-magento/
+-->
