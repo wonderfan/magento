@@ -67,6 +67,7 @@
 - [planetlinen](http://planetlinen.com.au/)
 - [mygraphtech](http://mygraphtech.com/)
 - [tjvip](https://www.tjvip.com.br/)
+- [bjjstore](http://bjjstore.eu/)
 
 ### Magento Useful Links
 
