@@ -19,3 +19,4 @@ Key points:
 
 - layout;
 - template;
+- eav
